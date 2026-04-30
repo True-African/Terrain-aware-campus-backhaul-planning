@@ -8,9 +8,7 @@ The repository is organized as a reproducibility package: raw simulation exports
 
 Find full paper at:
 
-[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=REPLACE_SSRN_ID](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=REPLACE_SSRN_ID)
-
-Replace `REPLACE_SSRN_ID` with the SSRN abstract ID after the preprint is published.
+[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6684300](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6684300)
 
 ## Structure
 
