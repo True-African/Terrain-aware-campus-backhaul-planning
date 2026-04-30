@@ -14,15 +14,15 @@ Replace `REPLACE_SSRN_ID` with the SSRN abstract ID after the preprint is publis
 
 ## Structure
 
-- `analyze_radio_mobile_results.py`: processes the Radio Mobile data, computes validation metrics, and regenerates the figures.
-- `data/radio_mobile_expanded_results.csv`: processed Radio Mobile results for all simulated height/gain scenarios.
-- `data/radio_mobile_expanded_with_model.csv`: processed results with link-budget model predictions added.
-- `data/validation_metrics.csv`: model error and feasibility-agreement metrics.
-- `data/validation_summary.md`: short text summary of the validation results.
-- `data/raw_radio_mobile_html/`: raw Radio Mobile HTML exports.
-- `figures/`: generated plots.
-- `CODEBOOK.md`: field descriptions for the main datasets.
-- `requirements.txt`: Python dependency list.
+- [analyze_radio_mobile_results.py](analyze_radio_mobile_results.py): processes the Radio Mobile data, computes validation metrics, and regenerates the figures.
+- [data/radio_mobile_expanded_results.csv](data/radio_mobile_expanded_results.csv): processed Radio Mobile results for all simulated height/gain scenarios.
+- [data/radio_mobile_expanded_with_model.csv](data/radio_mobile_expanded_with_model.csv): processed results with link-budget model predictions added.
+- [data/validation_metrics.csv](data/validation_metrics.csv): model error and feasibility-agreement metrics.
+- [data/validation_summary.md](data/validation_summary.md): short text summary of the validation results.
+- [data/raw_radio_mobile_html/](data/raw_radio_mobile_html/): raw Radio Mobile HTML exports.
+- [figures/](figures/): generated plots.
+- [CODEBOOK.md](CODEBOOK.md): field descriptions for the main datasets.
+- [requirements.txt](requirements.txt): Python dependency list.
 
 ## Reproduce the Analysis
 
