@@ -1,6 +1,6 @@
 # Codebook
 
-This codebook describes the main data files used by the paper.
+This codebook describes the main data files used by the analysis workflow.
 
 ## `data/radio_mobile_expanded_results.csv`
 
@@ -65,4 +65,3 @@ Fields:
 ## `data/raw_radio_mobile_html/`
 
 Raw Radio Mobile HTML outputs for each simulated scenario. Files ending in `_add.html` are additional Radio Mobile output pages associated with the same scenario.
-

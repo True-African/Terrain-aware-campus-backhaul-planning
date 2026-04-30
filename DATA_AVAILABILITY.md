@@ -1,28 +1,26 @@
-# Data Availability Package
+# Data Availability
 
-This folder contains the reproducibility materials for the paper:
+This repository contains the reproducibility materials for a terrain-aware campus backhaul planning study.
 
-**Terrain-Aware Multi-Objective Optimization of Campus Wireless Backhaul Links Using Link-Budget Modeling and Radio Mobile Validation**
+The package includes:
 
-Recommended public repository options include Zenodo, OSF, Figshare, GitHub with Zenodo DOI integration, or an African Leadership University repository if available.
+- raw Radio Mobile HTML outputs for the simulated scenarios;
+- processed CSV files used for analysis;
+- validation metrics and summary outputs;
+- the Python analysis script;
+- generated figures.
 
-## Files to Share
+The main processed datasets are:
 
-- `draft_paper.tex`: LaTeX source for the paper.
-- `references.bib`: bibliography used by the paper.
-- `analyze_radio_mobile_results.py`: analysis script used to process Radio Mobile outputs and generate figures.
-- `data/raw_radio_mobile_html/`: raw Radio Mobile HTML exports for the 30 simulated scenarios.
-- `data/radio_mobile_expanded_results.csv`: processed Radio Mobile simulation results.
-- `data/radio_mobile_expanded_with_model.csv`: processed results with analytical-model predictions.
-- `data/validation_metrics.csv`: validation metrics reported in the paper.
-- `data/validation_summary.md`: readable summary of the model-validation results.
-- `figures/*.png`: figures used in the paper.
+- `data/radio_mobile_expanded_results.csv`
+- `data/radio_mobile_expanded_with_model.csv`
+- `data/validation_metrics.csv`
 
-## Suggested Data Availability Text
+The raw Radio Mobile exports are stored in:
 
-The data and code supporting this study are publicly available at:
+- `data/raw_radio_mobile_html/`
+
+If this repository is archived on Zenodo, OSF, Figshare, or another public repository, add the final DOI or repository URL here:
 
 `https://doi.org/10.5281/zenodo.xxxxxxx`
-
-Replace the placeholder DOI with the final repository DOI before submitting the paper.
 

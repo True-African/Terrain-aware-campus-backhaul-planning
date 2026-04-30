@@ -1,30 +1,17 @@
-# Terrain-Aware Campus Wireless Backhaul Planning
+# Terrain-Aware Campus Backhaul Planning Dataset
 
-This repository contains the paper, data, code, and figures for:
+This repository contains the data, analysis code, and generated figures for a terrain-aware wireless backhaul planning study.
 
-**Terrain-Aware Multi-Objective Optimization of Campus Wireless Backhaul Links Using Link-Budget Modeling and Radio Mobile Validation**
-
-The study evaluates a 7.159 km point-to-point 5.8 GHz campus backhaul link between the Nyarugenge and Remera sites. It combines analytical link-budget modeling with Radio Mobile terrain-aware simulations to choose antenna height and gain while satisfying fade-margin constraints and minimizing deployment burden.
-
-## Authors
-
-- Simeon Nsabiyumva, corresponding author
-- Samuel Babalola
-- David Tuyishimire
-- Isaac Museveni
-
-Faculty of Software Engineering, African Leadership University, Kigali, Rwanda.
+The project evaluates a 7.159 km point-to-point 5.8 GHz campus backhaul link between the Nyarugenge and Remera sites. It uses Radio Mobile simulation outputs and a link-budget analysis script to compare antenna-height and antenna-gain configurations under fade-margin constraints.
 
 ## Repository Contents
 
-- `draft_paper.tex`: LaTeX manuscript source.
-- `draft_paper.pdf`: compiled manuscript.
-- `references.bib`: BibTeX references.
-- `analyze_radio_mobile_results.py`: Python analysis script.
+- `analyze_radio_mobile_results.py`: Python script for processing Radio Mobile results, computing validation metrics, and generating figures.
 - `data/`: raw and processed Radio Mobile data.
-- `figures/`: generated plots used in the paper.
+- `figures/`: generated plots from the analysis.
 - `CODEBOOK.md`: description of data files and fields.
-- `DATA_AVAILABILITY.md`: data-sharing notes and DOI placeholder.
+- `DATA_AVAILABILITY.md`: notes for public data archiving and DOI replacement.
+- `requirements.txt`: Python dependency list.
 
 ## Data
 
@@ -54,24 +41,7 @@ python analyze_radio_mobile_results.py
 
 This regenerates the model-augmented CSV, validation metrics, summary file, and figures.
 
-## Build the Paper
+## Suggested Repository Description
 
-With a LaTeX distribution installed:
-
-```bash
-latexmk -pdf draft_paper.tex
-```
-
-or:
-
-```bash
-pdflatex draft_paper.tex
-bibtex draft_paper
-pdflatex draft_paper.tex
-pdflatex draft_paper.tex
-```
-
-## Citation
-
-After creating a Zenodo DOI, update `CITATION.cff` and cite the repository using the DOI.
+A reproducible dataset and analysis workflow for optimizing antenna height and gain on a 5.8 GHz campus backhaul link using Radio Mobile outputs and link-budget validation.
 
