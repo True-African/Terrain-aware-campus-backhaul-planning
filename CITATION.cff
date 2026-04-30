@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it using the metadata below."
+title: "Terrain-Aware Multi-Objective Optimization of Campus Wireless Backhaul Links Using Link-Budget Modeling and Radio Mobile Validation"
+authors:
+  - family-names: "Nsabiyumva"
+    given-names: "Simeon"
+  - family-names: "Babalola"
+    given-names: "Samuel"
+  - family-names: "Tuyishimire"
+    given-names: "David"
+  - family-names: "Museveni"
+    given-names: "Isaac"
+date-released: "2026-04-30"
+version: "1.0.0"
+repository-code: "https://github.com/REPLACE-OWNER/REPLACE-REPOSITORY"
+doi: "10.5281/zenodo.xxxxxxx"
+license: "NOASSERTION"
+keywords:
+  - wireless backhaul
+  - link budget
+  - Radio Mobile
+  - fade margin
+  - antenna height optimization
+  - campus networks
+

@@ -1,0 +1,6 @@
+"Scenario","FrequencyMHz","HeightM","GainDbi","TxPowerW","DistanceKm","FreeSpaceLossDb","ObstructionLossDb","StatisticalLossDb","TotalPathLossDb","ReceivedSignalDbm","FadeMarginDb","Error"
+"updated_baseline","5825","15","19","0.1","7.159","124.80","1.71","6.55","133.06","-77.06","35.96",""
+"updated_low_height","5825","10","19","0.1","7.159","124.80","-5.87","6.54","125.48","-69.48","43.54",""
+"updated_low_gain","5825","15","16","0.1","7.159","124.80","1.71","6.55","133.06","-83.06","29.96",""
+"updated_stronger","5825","20","19","0.1","7.159","124.80","19.43","6.55","150.79","-94.79","18.23",""
+"updated_tvws_trial","600","15","10","0.1","","","","","","","","Frequency not allowed for this account"
