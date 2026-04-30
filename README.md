@@ -26,13 +26,40 @@ Replace `REPLACE_SSRN_ID` with the SSRN abstract ID after the preprint is publis
 
 ## Reproduce the Analysis
 
+Clone the repository and enter the project folder:
+
+```bash
+git clone https://github.com/True-African/Terrain-aware-campus-backhaul-planning.git
+cd Terrain-aware-campus-backhaul-planning
+```
+
+Create a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+Activate the virtual environment.
+
+Windows PowerShell:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+macOS/Linux:
+
+```bash
+source .venv/bin/activate
+```
+
 Install the Python dependency:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the analysis:
+Run the analysis script:
 
 ```bash
 python analyze_radio_mobile_results.py
